@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="validation.css">
+	<title>Form Validation</title>
+	
+	<script rel="javascript" src="D:\git\RDIP\javascript.js"></script>
+</head>
+<body>
+
+<div class="wrapper">
+  <div id="error_message"></div>
+  <form id="myform" onsubmit="return validation();">
+        <table>
+            <tr class="details">
+              <td><label>NAME: </label></td>
+              <td><input type="text"  id="name"></td>
+            </tr>
+            <tr class="details">  
+               <td><label>EMAIL: </label></td>
+               <td><input type="text" id="email"></td>
+            </tr>
+            <tr class="details">
+               <td><label>PHONE NO: </label></td>
+               <td><input type="text" id="phone"></td>
+            </tr>
+        </table>
+     <div class="btn">
+        <input type="submit">
+    </div>
+   </form>
+</div>
+</body>
+</html> 

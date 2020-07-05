@@ -1,0 +1,13 @@
+#form{
+	text-align: center;
+}
+input,button{
+	padding: 15px;
+}
+
+body {
+	margin-top: 15%;
+  background: #FEFFED;
+  font-family: Arial;
+	padding: 20px;
+}

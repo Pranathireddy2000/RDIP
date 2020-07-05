@@ -1,0 +1,22 @@
+body {
+	margin-top: 15%;
+  background: #FEFFED;
+  font-family: Arial;
+	padding: 20px;
+}
+ 
+*{
+	box-sizing: border-box;
+}
+ 
+form{
+	max-width: 450px;
+	margin: 0 auto;
+}
+ 
+form > div{
+	margin-top: 5px;
+	position: relative;
+	background: white;
+	border-bottom: 1px solid #ccc;
+}
